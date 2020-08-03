@@ -9,6 +9,7 @@ const Home = ({ bpi }) => {
   return (
     <Layout>
       <h1>Welcome to BitzPrice</h1>
+      <p>Check current Bitcoin rate</p>
       <Prices bpi={bpi} /> 
     </Layout>
   );
