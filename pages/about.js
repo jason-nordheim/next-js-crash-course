@@ -1,13 +1,13 @@
-import Nav from '../components/nav'
+import Layout from '../components/layout'
+
 const About = () => {
   return (
-  <div>
-    <Nav /> 
+  <Layout>
     <h1>About</h1>
     <p>
       Application to view bit coin prices 
     </p>
-  </div>
+  </Layout>
   )
 }
 
